@@ -18,7 +18,8 @@ Price forecast graph and table
 <img width="352" height="430" alt="Simulator Screenshot - IL watch virtual - 2025-07-24 at 20 59 31" src="https://github.com/user-attachments/assets/1400a939-258a-4d02-bb4a-1af1165ee1de" />
 <img width="352" height="430" alt="Simulator Screenshot - IL watch virtual - 2025-07-24 at 20 59 28" src="https://github.com/user-attachments/assets/af0796f6-de27-4cbb-bfa9-29f2275daf95" />
 
-
+# Bugs
+Can't forecast into the next day if you're checking it at night, might be a limitation of Amber's API
 
 
 Thanks to the Amber Electric team for providing the API!
