@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23615CBF2E32261F00B55AFD /* amberWATCH Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 23615CBE2E32261F00B55AFD /* amberWATCH Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23615CC02E32261F00B55AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23615CB22E32261E00B55AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23615CBD2E32261F00B55AFD;
+			remoteInfo = "amberWATCH Watch App";
+		};
+		23615CCE2E32262200B55AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23615CB22E32261E00B55AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23615CBD2E32261F00B55AFD;
+			remoteInfo = "amberWATCH Watch App";
+		};
+		23615CD82E32262200B55AFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23615CB22E32261E00B55AFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23615CBD2E32261F00B55AFD;
+			remoteInfo = "amberWATCH Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		23615CE42E32262200B55AFD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				23615CBF2E32261F00B55AFD /* amberWATCH Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23615CB82E32261F00B55AFD /* amberWATCH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = amberWATCH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23615CBE2E32261F00B55AFD /* amberWATCH Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "amberWATCH Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23615CCD2E32262200B55AFD /* amberWATCH Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amberWATCH Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23615CD72E32262200B55AFD /* amberWATCH Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "amberWATCH Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		23615CC22E32261F00B55AFD /* amberWATCH Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "amberWATCH Watch App";
+			sourceTree = "<group>";
+		};
+		23615CD02E32262200B55AFD /* amberWATCH Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "amberWATCH Watch AppTests";
+			sourceTree = "<group>";
+		};
+		23615CDA2E32262200B55AFD /* amberWATCH Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "amberWATCH Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23615CBB2E32261F00B55AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CCA2E32262200B55AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CD42E32262200B55AFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23615CB12E32261E00B55AFD = {
+			isa = PBXGroup;
+			children = (
+				23615CC22E32261F00B55AFD /* amberWATCH Watch App */,
+				23615CD02E32262200B55AFD /* amberWATCH Watch AppTests */,
+				23615CDA2E32262200B55AFD /* amberWATCH Watch AppUITests */,
+				23615CB92E32261F00B55AFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23615CB92E32261F00B55AFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23615CB82E32261F00B55AFD /* amberWATCH.app */,
+				23615CBE2E32261F00B55AFD /* amberWATCH Watch App.app */,
+				23615CCD2E32262200B55AFD /* amberWATCH Watch AppTests.xctest */,
+				23615CD72E32262200B55AFD /* amberWATCH Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23615CB72E32261F00B55AFD /* amberWATCH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23615CE52E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH" */;
+			buildPhases = (
+				23615CB62E32261F00B55AFD /* Resources */,
+				23615CE42E32262200B55AFD /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23615CC12E32261F00B55AFD /* PBXTargetDependency */,
+			);
+			name = amberWATCH;
+			packageProductDependencies = (
+			);
+			productName = amberWATCH;
+			productReference = 23615CB82E32261F00B55AFD /* amberWATCH.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		23615CBD2E32261F00B55AFD /* amberWATCH Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23615CE12E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch App" */;
+			buildPhases = (
+				23615CBA2E32261F00B55AFD /* Sources */,
+				23615CBB2E32261F00B55AFD /* Frameworks */,
+				23615CBC2E32261F00B55AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				23615CC22E32261F00B55AFD /* amberWATCH Watch App */,
+			);
+			name = "amberWATCH Watch App";
+			packageProductDependencies = (
+			);
+			productName = "amberWATCH Watch App";
+			productReference = 23615CBE2E32261F00B55AFD /* amberWATCH Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23615CCC2E32262200B55AFD /* amberWATCH Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23615CE82E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch AppTests" */;
+			buildPhases = (
+				23615CC92E32262200B55AFD /* Sources */,
+				23615CCA2E32262200B55AFD /* Frameworks */,
+				23615CCB2E32262200B55AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23615CCF2E32262200B55AFD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23615CD02E32262200B55AFD /* amberWATCH Watch AppTests */,
+			);
+			name = "amberWATCH Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "amberWATCH Watch AppTests";
+			productReference = 23615CCD2E32262200B55AFD /* amberWATCH Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23615CD62E32262200B55AFD /* amberWATCH Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23615CEB2E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch AppUITests" */;
+			buildPhases = (
+				23615CD32E32262200B55AFD /* Sources */,
+				23615CD42E32262200B55AFD /* Frameworks */,
+				23615CD52E32262200B55AFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23615CD92E32262200B55AFD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				23615CDA2E32262200B55AFD /* amberWATCH Watch AppUITests */,
+			);
+			name = "amberWATCH Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "amberWATCH Watch AppUITests";
+			productReference = 23615CD72E32262200B55AFD /* amberWATCH Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23615CB22E32261E00B55AFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					23615CB72E32261F00B55AFD = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					23615CBD2E32261F00B55AFD = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					23615CCC2E32262200B55AFD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 23615CBD2E32261F00B55AFD;
+					};
+					23615CD62E32262200B55AFD = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 23615CBD2E32261F00B55AFD;
+					};
+				};
+			};
+			buildConfigurationList = 23615CB52E32261E00B55AFD /* Build configuration list for PBXProject "amberWATCH" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23615CB12E32261E00B55AFD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 23615CB92E32261F00B55AFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23615CB72E32261F00B55AFD /* amberWATCH */,
+				23615CBD2E32261F00B55AFD /* amberWATCH Watch App */,
+				23615CCC2E32262200B55AFD /* amberWATCH Watch AppTests */,
+				23615CD62E32262200B55AFD /* amberWATCH Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23615CB62E32261F00B55AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CBC2E32261F00B55AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CCB2E32262200B55AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CD52E32262200B55AFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23615CBA2E32261F00B55AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CC92E32262200B55AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23615CD32E32262200B55AFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23615CC12E32261F00B55AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23615CBD2E32261F00B55AFD /* amberWATCH Watch App */;
+			targetProxy = 23615CC02E32261F00B55AFD /* PBXContainerItemProxy */;
+		};
+		23615CCF2E32262200B55AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23615CBD2E32261F00B55AFD /* amberWATCH Watch App */;
+			targetProxy = 23615CCE2E32262200B55AFD /* PBXContainerItemProxy */;
+		};
+		23615CD92E32262200B55AFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23615CBD2E32261F00B55AFD /* amberWATCH Watch App */;
+			targetProxy = 23615CD82E32262200B55AFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23615CDF2E32262200B55AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23615CE02E32262200B55AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		23615CE22E32262200B55AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = amberWATCH;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = immanuellam.amberWATCH.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23615CE32E32262200B55AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = amberWATCH;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = immanuellam.amberWATCH.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		23615CE62E32262200B55AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = amberWATCH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = usename11384.amberWATCH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		23615CE72E32262200B55AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_KEY_CFBundleDisplayName = amberWATCH;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = usename11384.amberWATCH;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23615CE92E32262200B55AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "immanuellam.amberWATCH-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amberWATCH Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amberWATCH Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23615CEA2E32262200B55AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "immanuellam.amberWATCH-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/amberWATCH Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/amberWATCH Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		23615CEC2E32262200B55AFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "immanuellam.amberWATCH-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "amberWATCH Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		23615CED2E32262200B55AFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6NX7WN475L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "immanuellam.amberWATCH-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "amberWATCH Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23615CB52E32261E00B55AFD /* Build configuration list for PBXProject "amberWATCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23615CDF2E32262200B55AFD /* Debug */,
+				23615CE02E32262200B55AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23615CE12E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23615CE22E32262200B55AFD /* Debug */,
+				23615CE32E32262200B55AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23615CE52E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23615CE62E32262200B55AFD /* Debug */,
+				23615CE72E32262200B55AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23615CE82E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23615CE92E32262200B55AFD /* Debug */,
+				23615CEA2E32262200B55AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23615CEB2E32262200B55AFD /* Build configuration list for PBXNativeTarget "amberWATCH Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23615CEC2E32262200B55AFD /* Debug */,
+				23615CED2E32262200B55AFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23615CB22E32261E00B55AFD /* Project object */;
+}
